@@ -32,12 +32,10 @@
       color="var(--special-text-color)"
     />
 
-    <title>Portfolio Website - Prasun Ghimire</title>
+    <title>Prasun.Dev</title>
   </head>
 
-  <!-- <body oncontextmenu="return false" contenteditable="false"> -->
-
-  <body>
+  <body oncontextmenu="return false" contenteditable="false">
     <!----- Pre-Loader Section ----->
     <div class="loading" id="loading">
       <svg
@@ -1147,10 +1145,7 @@
 
             <div class="tab-contents" id="experience">
               <ul>
-                <li>
-                  <span>2019 - Current</span><br />UI/UX, Web development, Game
-                  development
-                </li>
+                <li><span>2019 - Current</span><br />UI/UX, Web development</li>
                 <!-- <li><span>2019 2021</span><br />Team lead at StarApp LLC.</li>
                 <li>
                   <span>2017-2019</span><br />UI/UX Design Executive at Coin
@@ -1269,11 +1264,12 @@
         <div class="row">
           <div class="contact-left">
             <!-- Copy to clipboard when click phone num and email -->
-            <p>
-              <i class="fa-solid fa-envelope"></i>prasunghimire05+help@gmail.com
+            <p onclick="copyMyEmail()">
+              <i class="fa-solid fa-envelope" name="Click to Copy"></i>
+              <span id="myEmail">prasunghimire05+help@gmail.com</span>
             </p>
 
-            <!-- <p><i class="fa-solid fa-phone"></i>+977 9000000000</p> -->
+            <!-- <p><i class="fa-solid fa-phone" id="myPhoneNo"></i>+977 9000000000</p> -->
 
             <div class="social-icons">
               <a

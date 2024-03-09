@@ -1,0 +1,738 @@
+/*      SVG Image        */
+
+.svg-image svg {
+    /* background-color: aqua; */
+    border-radius: 10px;
+
+    width: 425px;
+    height: 425px;
+
+    color: var(--special-text-color);
+}
+
+
+.svg-image svg #iconbg {
+    box-shadow: 2px 2px var(--light-text-color);
+}
+
+
+/* Typing animation */
+/* animation: name duration timing-function delay iteration-count direction fill-mode; */
+
+#typepying-keys,
+#typing-key1 {
+    animation: typing-key1 2s linear infinite;
+}
+
+#typepying-keys,
+#typing-key2 {
+    animation: typing-key2 2s linear infinite;
+}
+
+#typepying-keys,
+#typing-key3 {
+    animation: typing-key3 2s linear infinite;
+}
+
+#typepying-keys,
+#typing-key4 {
+    animation: typing-key4 2s linear infinite;
+}
+
+#typepying-keys,
+#typing-key5 {
+    animation: typing-key5 2s linear infinite;
+}
+
+#typepying-keys,
+#typing-key6 {
+    animation: typing-key6 2s linear infinite;
+}
+
+#typepying-keys,
+#typing-key7 {
+    animation: typing-key7 5s linear infinite;
+}
+
+#typepying-keys,
+#typing-key8 {
+    animation: typing-key8 5s linear infinite;
+}
+
+#typepying-keys,
+#typing-key9 {
+    animation: typing-key9 5s linear infinite;
+}
+
+#typepying-keys,
+#typing-key10 {
+    animation: typing-key10 5s linear infinite;
+}
+
+#typepying-keys,
+#typing-key10 {
+    animation: typing-key10 5s linear infinite;
+}
+
+#typepying-keys,
+#typing-key10 {
+    animation: typing-key10 5s linear infinite;
+}
+
+#typepying-keys,
+#typing-key11 {
+    animation: typing-key11 2s linear infinite;
+}
+
+#typepying-keys,
+#typing-key12 {
+    animation: typing-key12 2s linear infinite;
+}
+
+#typepying-keys,
+#typing-key13 {
+    animation: typing-key13 2s linear infinite;
+}
+
+#typepying-keys,
+#typing-key14 {
+    animation: typing-key14 2s linear infinite;
+}
+
+#typepying-keys,
+#typing-key15 {
+    animation: typing-key15 2s linear infinite;
+}
+
+#typepying-keys,
+#typing-key16 {
+    animation: typing-key16 2s linear infinite;
+}
+
+#typepying-keys,
+#typing-key17 {
+    animation: typing-key17 5s linear infinite;
+}
+
+#typepying-keys,
+#typing-key18 {
+    animation: typing-key18 5s linear infinite;
+}
+
+#typepying-keys,
+#typing-key19 {
+    animation: typing-key19 5s linear infinite;
+}
+
+#typepying-keys,
+#typing-key20 {
+    animation: typing-key20 5s linear infinite;
+}
+
+#mask-group {
+    animation: mask-group 5s linear infinite;
+}
+
+
+#typepying-keys,
+#spacebar {
+    animation: spacebar 5s linear infinite;
+}
+
+#typepying-keys,
+#enterkey {
+    animation: enterkey 5s linear infinite;
+}
+
+
+
+@keyframes typing-key1 {
+
+    0%,
+    100% {
+        fill: black;
+    }
+
+    5% {
+        fill: var(--special-text-color);
+    }
+
+    10% {
+        fill: black;
+    }
+}
+
+
+@keyframes typing-key2 {
+
+    0%,
+    100% {
+        fill: black;
+    }
+
+    5% {
+        fill: black;
+    }
+
+    10% {
+        fill: var(--special-text-color);
+    }
+
+    15% {
+        fill: black;
+    }
+}
+
+@keyframes typing-key3 {
+
+    0%,
+    100% {
+        fill: black;
+    }
+
+    10% {
+        fill: black;
+    }
+
+    15% {
+        fill: var(--special-text-color);
+    }
+
+    20% {
+        fill: black;
+    }
+}
+
+@keyframes typing-key4 {
+
+    0%,
+    100% {
+        fill: black;
+    }
+
+    15% {
+        fill: black;
+    }
+
+    20% {
+        fill: var(--special-text-color);
+    }
+
+    25% {
+        fill: black;
+    }
+}
+
+@keyframes typing-key5 {
+
+    0%,
+    100% {
+        fill: black;
+    }
+
+    20% {
+        fill: black;
+    }
+
+    25% {
+        fill: var(--special-text-color);
+    }
+
+    30% {
+        fill: black;
+    }
+}
+
+@keyframes typing-key6 {
+
+    0%,
+    100% {
+        fill: black;
+    }
+
+    25% {
+        fill: black;
+    }
+
+    30% {
+        fill: var(--special-text-color);
+    }
+
+    35% {
+        fill: black;
+    }
+}
+
+@keyframes typing-key7 {
+
+    0%,
+    100% {
+        fill: black;
+    }
+
+    30% {
+        fill: black;
+    }
+
+    35% {
+        fill: var(--special-text-color);
+    }
+
+    40% {
+        fill: black;
+    }
+}
+
+@keyframes typing-key8 {
+
+    0%,
+    100% {
+        fill: black;
+    }
+
+    35% {
+        fill: black;
+    }
+
+    40% {
+        fill: var(--special-text-color);
+    }
+
+    45% {
+        fill: black;
+    }
+}
+
+@keyframes typing-key9 {
+
+    0%,
+    100% {
+        fill: black;
+    }
+
+    40% {
+        fill: black;
+    }
+
+    45% {
+        fill: var(--special-text-color);
+    }
+
+    50% {
+        fill: black;
+    }
+}
+
+@keyframes typing-key10 {
+
+    0%,
+    100% {
+        fill: black;
+    }
+
+    45% {
+        fill: black;
+    }
+
+    50% {
+        fill: var(--special-text-color);
+    }
+
+    55% {
+        fill: black;
+    }
+}
+
+@keyframes typing-key11 {
+
+    0%,
+    100% {
+        fill: black;
+    }
+
+    50% {
+        fill: black;
+    }
+
+    55% {
+        fill: var(--special-text-color);
+    }
+
+    60% {
+        fill: black;
+    }
+}
+
+@keyframes typing-key12 {
+
+    0%,
+    100% {
+        fill: black;
+    }
+
+    55% {
+        fill: black;
+    }
+
+    60% {
+        fill: var(--special-text-color);
+    }
+
+    65% {
+        fill: black;
+    }
+}
+
+@keyframes typing-key13 {
+
+    0%,
+    100% {
+        fill: black;
+    }
+
+    60% {
+        fill: black;
+    }
+
+    65% {
+        fill: var(--special-text-color);
+    }
+
+    70% {
+        fill: black;
+    }
+}
+
+@keyframes typing-key14 {
+
+    0%,
+    100% {
+        fill: black;
+    }
+
+    65% {
+        fill: black;
+    }
+
+    70% {
+        fill: var(--special-text-color);
+    }
+
+    75% {
+        fill: black;
+    }
+}
+
+@keyframes typing-key15 {
+
+    0%,
+    100% {
+        fill: black;
+    }
+
+    70% {
+        fill: black;
+    }
+
+    75% {
+        fill: var(--special-text-color);
+    }
+
+    80% {
+        fill: black;
+    }
+}
+
+@keyframes typing-key16 {
+
+    0%,
+    100% {
+        fill: black;
+    }
+
+    75% {
+        fill: black;
+    }
+
+    80% {
+        fill: var(--special-text-color);
+    }
+
+    85% {
+        fill: black;
+    }
+}
+
+@keyframes typing-key17 {
+
+    0%,
+    100% {
+        fill: black;
+    }
+
+    80% {
+        fill: black;
+    }
+
+    85% {
+        fill: var(--special-text-color);
+    }
+
+    90% {
+        fill: black;
+    }
+}
+
+@keyframes typing-key18 {
+
+    0%,
+    100% {
+        fill: black;
+    }
+
+    85% {
+        fill: black;
+    }
+
+    90% {
+        fill: var(--special-text-color);
+    }
+
+    95% {
+        fill: black;
+    }
+}
+
+@keyframes typing-key19 {
+
+    0%,
+    100% {
+        fill: black;
+    }
+
+    90% {
+        fill: black;
+    }
+
+    95% {
+        fill: var(--special-text-color);
+    }
+}
+
+@keyframes typing-key20 {
+
+    0% {
+        fill: black;
+    }
+
+    95% {
+        fill: black;
+    }
+
+    100% {
+        fill: var(--special-text-color);
+    }
+
+}
+
+
+@keyframes spacebar {
+
+    0%,
+    100% {
+        fill: black;
+    }
+
+    10% {
+        fill: black;
+    }
+
+    15% {
+        fill: var(--special-text-color);
+    }
+
+    25% {
+        fill: black;
+    }
+}
+
+
+
+@keyframes enterkey {
+
+    0%,
+    100% {
+        fill: black;
+    }
+
+    60% {
+        fill: black;
+    }
+
+    70% {
+        fill: var(--special-text-color);
+    }
+
+    95% {
+        fill: black;
+    }
+}
+
+
+
+@keyframes mask-group {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 0.5;
+    }
+
+    95% {
+        opacity: 0.01;
+    }
+}
+
+
+/*              Icon Animation             */
+
+.svg-image #chrome {
+    animation: animation1 15s linear infinite;
+}
+
+.svg-image #Html {
+    animation: animation2 15s linear infinite;
+}
+
+.svg-image #JS {
+    animation: animation2 15s linear infinite;
+}
+
+.svg-image #api {
+    animation: animation3 15s linear infinite;
+}
+
+.svg-image #CSS {
+    animation: animation4 15s linear infinite;
+}
+
+.svg-image #React {
+    animation: animation4 15s linear infinite;
+}
+
+.svg-image #php {
+    animation: animation4 15s linear infinite;
+}
+
+.svg-image #mySQL {
+    animation: animation4 15s linear infinite;
+}
+
+
+@keyframes animation1 {
+
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+}
+
+@keyframes animation2 {
+
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+}
+
+@keyframes animation3 {
+
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+}
+
+@keyframes animation4 {
+
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+}
+
+@keyframes animation5 {
+
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+}
